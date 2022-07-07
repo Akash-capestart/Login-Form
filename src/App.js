@@ -5,7 +5,7 @@ import LifeCycleComponents from './Components/lifecycle';
 import Dashboard from './Components/Dashboard';
 import Home from './Components/Home'
 import {Routes,Route} from "react-router-dom"
-import Signup from './Components/SignUp';
+
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path='/login' element={<Login/>} />
         <Route path='/lifecycle' element={<LifeCycleComponents/>}/>
         <Route path='/home' element={<Home/>}/>
-        <Route path='/sign' element={<Signup/>}/>
+        
 
       </Routes>
       
