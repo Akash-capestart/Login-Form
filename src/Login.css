@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.innercon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     border-radius: 25px;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 400px;
+    
+}
+
+input{
+    width: 70%;
+    height:30px;
+
+}
+
+.fields{
+    margin-bottom:20px ;
+}
+
+button{
+    height:30px;
+    width: 40%;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
